@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/map_wallpaper">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start a Session"
+        android:textStyle="italic"
+        android:textSize="45dp"
+        android:paddingBottom="45dp"
+        android:layout_above="@+id/from_edit"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Go!"
+        android:id="@+id/btn_start"
+        android:layout_gravity="center"
+        android:background="@drawable/greenbutton"
+        android:padding="10dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <com.example.kurt.kitakasama.DelayAutoCompleteTextView
+        android:id="@+id/destination_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="flagNoExtractUi|actionSearch"
+        android:inputType="textCapSentences"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:background="@drawable/roundededit"
+        android:padding="10dp"
+        android:hint="Destination"
+        android:layout_gravity="center_vertical"
+        android:dropDownWidth="fill_parent"
+        android:layout_above="@+id/btn_start"
+        android:layout_alignRight="@+id/btn_start"
+        android:layout_alignEnd="@+id/btn_start"
+        android:layout_alignLeft="@+id/btn_start"
+        android:layout_alignStart="@+id/btn_start" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/from_edit"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/roundededit"
+        android:hint="Current Location"
+        android:layout_above="@+id/destination_edit"
+        android:layout_alignRight="@+id/destination_edit"
+        android:layout_alignEnd="@+id/destination_edit"
+        android:layout_alignLeft="@+id/destination_edit"
+        android:layout_alignStart="@+id/destination_edit" />
+
+</RelativeLayout>

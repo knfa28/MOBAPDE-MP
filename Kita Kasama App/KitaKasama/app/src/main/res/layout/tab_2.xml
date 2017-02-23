@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/map_wallpaper">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Track a Session"
+        android:textStyle="italic"
+        android:textSize="45dp"
+        android:paddingBottom="45dp"
+        android:layout_above="@+id/session_edit"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/session_edit"
+        android:layout_gravity="center"
+        android:hint="Session Code"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:background="@drawable/roundededit"
+        android:padding="10dp"
+        android:layout_above="@+id/tracker_edit"
+        android:layout_alignRight="@+id/tracker_edit"
+        android:layout_alignEnd="@+id/tracker_edit"
+        android:layout_alignLeft="@+id/tracker_edit"
+        android:layout_alignStart="@+id/tracker_edit" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tracker_edit"
+        android:layout_gravity="center"
+        android:hint="Tracker Code"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:background="@drawable/roundededit"
+        android:padding="10dp"
+        android:layout_above="@+id/btn_track"
+        android:layout_alignRight="@+id/btn_track"
+        android:layout_alignEnd="@+id/btn_track"
+        android:layout_alignLeft="@+id/btn_track"
+        android:layout_alignStart="@+id/btn_track" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Go!"
+        android:id="@+id/btn_track"
+        android:layout_gravity="center"
+        android:background="@drawable/greenbutton"
+        android:padding="10dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

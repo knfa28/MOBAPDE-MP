@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Trackers">
+        <menu>
+            <item
+                android:id="@+id/nav_tracker"
+                android:title="View Trackers" />
+            <item
+                android:id="@+id/nav_add_tracker"
+                android:title="Add Trackers" />
+        </menu>
+    </item>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_user_profile"
+                android:title="User Profile" />
+            <item
+                android:id="@+id/nav_user_message"
+                android:title="User Messages" />
+            <item
+                android:id="@+id/nav_tracker_message"
+                android:title="Tracker Messages" />
+            <item
+                android:id="@+id/nav_about"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Session">
+        <menu>
+            <item
+                android:id="@+id/nav_tracker_status"
+                android:title="Trackers' Status" />
+            <item
+                android:id="@+id/nav_pause_session"
+                android:title="Pause Session" />
+            <item
+                android:id="@+id/nav_stop_session"
+                android:title="Stop Session" />
+
+        </menu>
+    </item>
+
+    <item android:title="Trackers">
+        <menu>
+            <item
+                android:id="@+id/nav_tracker"
+                android:title="View Trackers" />
+            <item
+                android:id="@+id/nav_add_tracker"
+                android:title="Add Trackers" />
+        </menu>
+    </item>
+
+
+</menu>

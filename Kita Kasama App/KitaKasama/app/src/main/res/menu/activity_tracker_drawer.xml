@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Session">
+        <menu>
+            <item
+                android:id="@+id/nav_session_status"
+                android:title="Session Status" />
+            <item
+                android:id="@+id/nav_pause_track"
+                android:title="Pause Tracking" />
+            <item
+                android:id="@+id/nav_stop_track"
+                android:title="Stop Tracking" />
+
+        </menu>
+    </item>
+
+</menu>
